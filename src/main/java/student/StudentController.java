@@ -12,13 +12,6 @@ import java.util.List;
 public class StudentController {
     @GetMapping
 public List<Student> findallstudent(){
-    return List.of(
-            new Student(
-             "ghaith",
-             "bouabda",
-             22,
-             LocalDate.now(),
-            "kalemni@gmail.com" )
-   );
+    return null;
 }
 }
