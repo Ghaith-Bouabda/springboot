@@ -1,4 +1,4 @@
-package student;
+package com.ghaith.demo.student;
 
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ public class StudentService {
     public List<Student> findallstudent(){
         return List.of(
                 new Student(
-                        "ghaith",
+                        "ghaaaith",
                         "bouabda",
                         22,
                         LocalDate.now(),
