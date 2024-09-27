@@ -1,4 +1,4 @@
-package com.ghaith.demo;
+package student;
 
 import java.time.LocalDate;
 
